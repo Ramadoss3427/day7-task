@@ -27,6 +27,7 @@ request.onload=function(){
     var data=request.response;
     var result= JSON.parse(data);
     var res2=result.forEach((ele)=>console.log`${ele.name.common} ${ele.capital} ${ele.flag}`)
+    console.log(res2)
     
 }
 
